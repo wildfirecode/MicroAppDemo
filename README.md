@@ -1,2 +1,7 @@
 # MicroAppDemo
-Egret 微端 App Demo
+    
+    cd html5
+    egret create demo
+    cd demo
+    egret publish
+    
