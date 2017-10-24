@@ -91,6 +91,9 @@
         });
     });
     xhr.send(null);
+    if(window.egretMiniAppLoadingProgress){
+        window.egretMiniAppLoadingProgress('loadingGame',50)
+    }
 </script>
 </body>
 

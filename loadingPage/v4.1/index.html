@@ -28,9 +28,10 @@
 		</div>
 	</div>
 	<script>
-		console.log('log from loading page>index.html')
 		var setProgressScript = function () {
-			window.egretMiniAppLoadingProgress = function (msg, val) {
+			console.log('log from loading page>index.html>setProgressScript')
+			window.egretMiniAppLoadingProgress = function (msg, val) {			
+				console.log('log from loading page>index.html>egretMiniAppLoadingProgress...')
 				var bar = document.getElementById('bar');
 				bar.style.width = val + "%";
 				var infoMsg = 'StartEngine [' + val + '%]';
