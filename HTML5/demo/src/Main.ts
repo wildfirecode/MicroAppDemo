@@ -68,6 +68,7 @@ class Main extends egret.DisplayObjectContainer {
         //initiate Resource loading library
         RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
         RES.loadConfig("resource/default.res.json", "resource/");
+        console.log('main.js->load default.res.json')
     }
 
     /**
@@ -81,6 +82,7 @@ class Main extends egret.DisplayObjectContainer {
         RES.addEventListener(RES.ResourceEvent.GROUP_PROGRESS, this.onResourceProgress, this);
         RES.addEventListener(RES.ResourceEvent.ITEM_LOAD_ERROR, this.onItemLoadError, this);
         RES.loadGroup("preload");
+        console.log('main.js>onConfigComplete')
     }
 
     /**
