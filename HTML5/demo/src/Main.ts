@@ -65,6 +65,12 @@ class Main extends egret.DisplayObjectContainer {
         this.stage.addChild(this.loadingView);
         this.loadingView.setProgress(0,0);
 
+
+        if (window['closeLoadingView']) {
+            window['closeLoadingView']();
+            console.log('main.js>closeLoadingView')
+        }
+
         //初始化Resource资源加载库
         //initiate Resource loading library
         RES.addEventListener(RES.ResourceEvent.CONFIG_COMPLETE, this.onConfigComplete, this);
