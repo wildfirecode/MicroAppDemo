@@ -1,4 +1,4 @@
-package org.egret.launcher.MicroAppDemo;
+package org.egret.launcher.demo;
 
 import android.os.Bundle;
 import android.os.Handler;

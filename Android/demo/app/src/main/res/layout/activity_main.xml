@@ -8,7 +8,7 @@
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
     android:paddingTop="0dp"
-    tools:context="org.egret.launcher.MicroAppDemo.MainActivity">
+    tools:context="org.egret.launcher.demo.MainActivity">
 
     <FrameLayout
         android:layout_width="match_parent"

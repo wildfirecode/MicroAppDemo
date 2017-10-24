@@ -5,7 +5,7 @@ model {
         compileSdkVersion 23
         buildToolsVersion "26.0.0"
         defaultConfig {
-            applicationId "org.egret.launcher.MicroAppDemo"
+            applicationId "org.egret.launcher.demo"
             minSdkVersion.apiLevel 19
             targetSdkVersion.apiLevel 23
             versionCode 1

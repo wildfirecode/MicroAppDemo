@@ -42,7 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		877B7F341F287B2B0089B934 /* MicroAppDemo_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroAppDemo_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		877B7F341F287B2B0089B934 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		877B7F381F287B2B0089B934 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		877B7F3A1F287B2B0089B934 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		877B7F3B1F287B2B0089B934 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				877B7F651F287CA90089B934 /* SocketRocket.framework */,
-				877B7F361F287B2B0089B934 /* MicroAppDemo_iOS */,
+				877B7F361F287B2B0089B934 /* demo */,
 				877B7F351F287B2B0089B934 /* Products */,
 				877B7F541F287BBC0089B934 /* Frameworks */,
 			);
@@ -99,12 +99,12 @@
 		877B7F351F287B2B0089B934 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				877B7F341F287B2B0089B934 /* MicroAppDemo_iOS.app */,
+				877B7F341F287B2B0089B934 /* demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		877B7F361F287B2B0089B934 /* MicroAppDemo_iOS */ = {
+		877B7F361F287B2B0089B934 /* demo */ = {
 			isa = PBXGroup;
 			children = (
 				878975631F441427004B6402 /* icon.png */,
@@ -118,7 +118,7 @@
 				877B7F481F287B2B0089B934 /* Info.plist */,
 				877B7F371F287B2B0089B934 /* Supporting Files */,
 			);
-			path = MicroAppDemo_iOS;
+			path = demo;
 			sourceTree = "<group>";
 		};
 		877B7F371F287B2B0089B934 /* Supporting Files */ = {
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		877B7F331F287B2B0089B934 /* MicroAppDemo_iOS */ = {
+		877B7F331F287B2B0089B934 /* demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 877B7F4B1F287B2B0089B934 /* Build configuration list for PBXNativeTarget "MicroAppDemo_iOS" */;
+			buildConfigurationList = 877B7F4B1F287B2B0089B934 /* Build configuration list for PBXNativeTarget "demo" */;
 			buildPhases = (
 				877B7F301F287B2B0089B934 /* Sources */,
 				877B7F311F287B2B0089B934 /* Frameworks */,
@@ -161,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = MicroAppDemo_iOS;
-			productName = MicroAppDemo_iOS;
-			productReference = 877B7F341F287B2B0089B934 /* MicroAppDemo_iOS.app */;
+			name = demo;
+			productName = demo;
+			productReference = 877B7F341F287B2B0089B934 /* demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -182,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 877B7F2F1F287B2B0089B934 /* Build configuration list for PBXProject "MicroAppDemo_iOS" */;
+			buildConfigurationList = 877B7F2F1F287B2B0089B934 /* Build configuration list for PBXProject "demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -195,7 +195,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				877B7F331F287B2B0089B934 /* MicroAppDemo_iOS */,
+				877B7F331F287B2B0089B934 /* demo */,
 			);
 		};
 /* End PBXProject section */
@@ -348,13 +348,13 @@
 					"$(PROJECT_DIR)/egret-libs",
 				);
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/egret-libs/include";
-				INFOPLIST_FILE = MicroAppDemo_iOS/Info.plist;
+				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/egret-libs",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = egret.MicroAppDemo_iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = egret.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -370,13 +370,13 @@
 					"$(PROJECT_DIR)/egret-libs",
 				);
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/egret-libs/include";
-				INFOPLIST_FILE = MicroAppDemo_iOS/Info.plist;
+				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/egret-libs",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = egret.MicroAppDemo_iOS;
+				PRODUCT_BUNDLE_IDENTIFIER = egret.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -384,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		877B7F2F1F287B2B0089B934 /* Build configuration list for PBXProject "MicroAppDemo_iOS" */ = {
+		877B7F2F1F287B2B0089B934 /* Build configuration list for PBXProject "demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				877B7F491F287B2B0089B934 /* Debug */,
@@ -393,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		877B7F4B1F287B2B0089B934 /* Build configuration list for PBXNativeTarget "MicroAppDemo_iOS" */ = {
+		877B7F4B1F287B2B0089B934 /* Build configuration list for PBXNativeTarget "demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				877B7F4C1F287B2B0089B934 /* Debug */,
