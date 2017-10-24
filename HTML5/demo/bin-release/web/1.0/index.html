@@ -53,6 +53,7 @@
     };
 
     var loadSingleScript = function (src, callback) {
+        console.log(`loading ${src}`)
         var s = document.createElement('script');
         s.async = false;
         s.src = src;
