@@ -50,7 +50,7 @@ var Main = (function (_super) {
         egret.lifecycle.addLifecycleListener(function (context) {
             // custom lifecycle plugin
             context.onUpdate = function () {
-                console.log('hello,world');
+                //console.log('hello,world');
             };
         });
         egret.lifecycle.onPause = function () {
