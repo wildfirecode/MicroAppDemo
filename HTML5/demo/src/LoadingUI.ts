@@ -47,5 +47,6 @@ class LoadingUI extends egret.Sprite {
 
     public setProgress(current:number, total:number):void {
         this.textField.text = `Loading...${current}/${total}`;
+        console.log('loadingui>'+current+'/'+total)
     }
 }
