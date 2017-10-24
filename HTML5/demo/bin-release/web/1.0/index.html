@@ -53,7 +53,6 @@
     };
 
     var loadSingleScript = function (src, callback) {
-        console.log('index.html>loadSingleScript>'+src);
         var s = document.createElement('script');
         s.async = false;
         s.src = src;
@@ -71,7 +70,6 @@
         var manifest = JSON.parse(xhr.response);
         var list = manifest.initial.concat(manifest.game);
         loadScript(list, function () {
-            console.log('index.html>egret.runEgret');
             /**
              * {
              * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
