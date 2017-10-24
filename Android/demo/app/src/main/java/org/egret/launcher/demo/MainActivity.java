@@ -43,7 +43,7 @@ public class MainActivity extends NativeActivity {
         *   1. close the startup page automatically
         *   0. close the startup page manually
         * */
-        launcher.closeLoadingViewAutomatically = 1;
+        launcher.closeLoadingViewAutomatically = 0;
 
         /*
         * 设置是否每次启动都重新下载游戏资源
