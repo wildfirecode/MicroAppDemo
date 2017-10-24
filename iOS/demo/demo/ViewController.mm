@@ -45,7 +45,7 @@
      *   1. close the startup page automatically
      *   0. close the startup page manually
      * */
-    super.launcher.closeLoadingViewAutomatically = 1;
+    super.launcher.closeLoadingViewAutomatically = 0;
     
     /*
      * 设置是否每次启动都重新下载游戏资源
