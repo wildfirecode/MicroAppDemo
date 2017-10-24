@@ -56,6 +56,7 @@
         var s = document.createElement('script');
         s.async = false;
         s.src = src;
+        console.log('index.html>loadSingleScript>'+src);
         s.addEventListener('load', function () {
             s.parentNode.removeChild(s);
             s.removeEventListener('load', arguments.callee, false);
